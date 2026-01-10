@@ -21,7 +21,7 @@ export function formatPercentage(num: number): string {
 }
 
 export function getPercentageColor(num: number): string {
-  if (num > 0) return "text-accent-green";
-  if (num < 0) return "text-accent-red";
-  return "text-text-secondary";
+  if (num > 0) return "text-green-500";
+  if (num < 0) return "text-red-500";
+  return "text-gray-400";
 }

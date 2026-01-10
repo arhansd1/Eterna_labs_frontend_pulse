@@ -8,9 +8,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Axiom Trade - Pulse",
   description: "Real-time token discovery and trading table",
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({

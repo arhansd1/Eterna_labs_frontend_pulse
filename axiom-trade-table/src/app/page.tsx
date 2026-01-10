@@ -1,20 +1,20 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-black">
       {/* Header */}
-      <header className="border-b border-border bg-background-secondary">
+      <header className="border-b border-gray-800 bg-gray-950">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <h1 className="text-2xl font-bold text-text-primary">Pulse</h1>
+              <h1 className="text-2xl font-bold text-white">Pulse</h1>
               <nav className="flex gap-6">
-                <button className="text-sm text-text-secondary hover:text-text-primary transition-colors">
+                <button className="text-sm text-gray-400 hover:text-white transition-colors">
                   Discover
                 </button>
-                <button className="text-sm text-brand-primary font-medium">
+                <button className="text-sm text-indigo-500 font-medium">
                   Pulse
                 </button>
-                <button className="text-sm text-text-secondary hover:text-text-primary transition-colors">
+                <button className="text-sm text-gray-400 hover:text-white transition-colors">
                   Trackers
                 </button>
               </nav>
@@ -29,14 +29,12 @@ export default function Home() {
           {/* New Pairs Column */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold text-text-primary">
-                New Pairs
-              </h2>
-              <span className="text-sm text-text-secondary">⚡ 0</span>
+              <h2 className="text-lg font-semibold text-white">New Pairs</h2>
+              <span className="text-sm text-gray-400">⚡ 0</span>
             </div>
             <div className="space-y-3">
-              <div className="bg-background-secondary border border-border rounded-lg p-4">
-                <p className="text-text-secondary text-sm">Loading tokens...</p>
+              <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+                <p className="text-gray-400 text-sm">Loading tokens...</p>
               </div>
             </div>
           </div>
@@ -44,14 +42,12 @@ export default function Home() {
           {/* Final Stretch Column */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold text-text-primary">
-                Final Stretch
-              </h2>
-              <span className="text-sm text-text-secondary">⚡ 0</span>
+              <h2 className="text-lg font-semibold text-white">Final Stretch</h2>
+              <span className="text-sm text-gray-400">⚡ 0</span>
             </div>
             <div className="space-y-3">
-              <div className="bg-background-secondary border border-border rounded-lg p-4">
-                <p className="text-text-secondary text-sm">Loading tokens...</p>
+              <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+                <p className="text-gray-400 text-sm">Loading tokens...</p>
               </div>
             </div>
           </div>
@@ -59,14 +55,12 @@ export default function Home() {
           {/* Migrated Column */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold text-text-primary">
-                Migrated
-              </h2>
-              <span className="text-sm text-text-secondary">⚡ 0</span>
+              <h2 className="text-lg font-semibold text-white">Migrated</h2>
+              <span className="text-sm text-gray-400">⚡ 0</span>
             </div>
             <div className="space-y-3">
-              <div className="bg-background-secondary border border-border rounded-lg p-4">
-                <p className="text-text-secondary text-sm">Loading tokens...</p>
+              <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+                <p className="text-gray-400 text-sm">Loading tokens...</p>
               </div>
             </div>
           </div>
